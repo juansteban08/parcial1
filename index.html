@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Portafolio</a></li>
+                <li><a href="#gitignore">Git Ignore</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <img src="images/foto.jpg" alt = "perfil">
+        <h1>¡Hola! Soy juan steban valverde</h1>
+        <p>Desarrollador de Software y diseñador.</p>
+        <a href="#projects" class="btn">Ver Portafolio</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Mí</h2>
+        <p>Soy un estudiante de ingenieria multimedia, desarrolador y diseñador</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Habilidades</h2>
+        <div class="habilidades">
+            <div class="habilidades-blandas">
+                <h3>Habilidades Blandas</h3>
+                <ul>
+                    <li>Comunicación efectiva</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Adaptabilidad</li>
+                    <li>Resolución de problemas</li>
+                    <li>Gestión del tiempo</li>
+                </ul>
+            </div>
+            <div class="habilidades-duras">
+                <h3>Habilidades Duras</h3>
+                <ul>
+                    <li>Desarrollo web (HTML, CSS, JavaScript)</li>
+                    <li>Programación en Python y Java</li>
+                    <li>Diseño gráfico con Adobe Photoshop</li>
+                    <li>Uso de herramientas de control de versiones (Git)</li>
+                    <li>Edición de video</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Proyectos</h2>
+        <ul>
+            <li><a href="https://github.com/juansteban08/Dise-oWebMultimedia/tree/main/PaginaLearn" target="_blank">Proyecto en GitHub paginaLearn</a></li>
+            <li><a href="https://github.com/juansteban08/Dise-oWebMultimedia/tree/main/Selector" target="_blank">Proyecto en GitHub Selector</a></li>
+            <li><a href="https://github.com/juansteban08/Dise-oWebMultimedia/tree/main/z-index" target="_blank">Proyecto en GitHub z-index</a></li>
+
+        </ul>
+    </section>
+
+     <section id="gitignore" class="gitignore">
+        <h2>¿Cómo usar un archivo .gitignore?</h2>
+        <p>El archivo <code>.gitignore</code> es utilizado para indicar a Git qué archivos o directorios deben ser ignorados en un repositorio. Esto es útil para evitar subir archivos innecesarios, temporales o sensibles. Aquí te mostramos cómo crear y utilizar un archivo <code>.gitignore</code> paso a paso:</p>
+        <ol>
+            <li><strong>Crear un archivo .gitignore:</strong> En la raíz de tu proyecto, crea un archivo llamado <code>.gitignore</code>.</li>
+            <li><strong>Agregar patrones:</strong> Dentro de este archivo, escribe los nombres de los archivos o carpetas que deseas ignorar. Puedes usar comodines para ignorar tipos de archivos específicos.</li>
+            <li><strong>Ejemplo:</strong> Aquí hay un ejemplo simple de un archivo <code>.gitignore</code>:
+                <pre>
+# Ignorar archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de configuración específicos
+.env
+config.php
+                </pre>
+            </li>
+            <li><strong>Verificar:</strong> Usa <code>git status</code> para asegurarte de que los archivos especificados están siendo ignorados.</li>
+            <li><strong>Confirmar cambios:</strong> Agrega y confirma tu archivo <code>.gitignore</code> con <code>git add .gitignore</code> y <code>git commit -m "Agregar archivo .gitignore"</code>.</li>
+        </ol>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>¡Ponte en contacto conmigo a través de las redes sociales!</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100014804524805" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/juan-steban-valverde-105059311/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/juansteban08" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
